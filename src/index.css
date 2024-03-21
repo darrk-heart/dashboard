@@ -2,8 +2,9 @@
 
 body {
   margin: 0;
-  padding: 20px;
+  padding: 6px 15px 6px 15px;
   background-color: #ffffff;
+  /* width: 100vw; */
 }
 .roboto-thin {
   font-family: "Roboto", sans-serif;
