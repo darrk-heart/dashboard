@@ -1,9 +1,10 @@
 import "./App.css";
+import Heading from "./components/Heading/Heading";
 
 function App() {
   return (
     <div className="App">
-      <p className="roboto-bold">hello world</p>
+      <Heading />
     </div>
   );
 }

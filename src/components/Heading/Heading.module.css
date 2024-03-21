@@ -1,0 +1,19 @@
+.googleHeading {
+  align-items: center;
+  display: flex;
+}
+.heading {
+  display: flex;
+  justify-content: space-between;
+}
+.mdapp:hover,
+.fabar:hover {
+  background-color: #bbbbbb;
+  padding: 10px;
+  border-radius: 50%;
+}
+.mdapp,
+.fabar {
+  background-color: #ffffff;
+  padding: 10px;
+}
