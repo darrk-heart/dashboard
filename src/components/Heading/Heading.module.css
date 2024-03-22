@@ -45,3 +45,6 @@
   height: 190px;
   z-index: -1;
 }
+.centerText {
+  padding: 0 230px 0 230px;
+}

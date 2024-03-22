@@ -3,6 +3,7 @@ import { FaBars } from "react-icons/fa";
 import styles from "./Heading.module.css";
 import { MdApps } from "react-icons/md";
 import background from "../../assets/background.jpg";
+import Markets from "../Markets/Markets";
 
 function Heading() {
   return (
@@ -26,8 +27,9 @@ function Heading() {
         </div>
       </div>
       <img src={background} alt="background" className={styles.background} />
-
-      
+      <div className={styles.centerText}>
+        <Markets />
+      </div>
     </>
   );
 }
